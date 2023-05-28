@@ -292,5 +292,12 @@
     "hinta": 700,
     "luokka": "Pistol",
     "puoli": "bothteam"
+  },
+  "cz75-auto": {
+    "kuva": "./items/pistols/cs75-auto.png",
+    "nimi": "CZ75-auto",
+    "hinta": 500,
+    "luokka": "Pistol",
+    "puoli": "bothteam"
   }
 }
