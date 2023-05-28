@@ -1,3 +1,3 @@
 # CSGOClutchMentor
 # this help to choose gun
-[Link](https://github.com/Arskakoo/CSGOClutchMentor)
+[CSGOClutchMetor](https://arskakoo.github.io/CSGOClutchMetor/)
