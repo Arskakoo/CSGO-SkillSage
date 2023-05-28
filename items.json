@@ -1,0 +1,296 @@
+{
+  "clock-18": {
+    "kuva": "./items/pistols/clock-18.png",
+    "nimi": "Clock-18",
+    "hinta": 200,
+    "luokka": "Pistol",
+    "puoli": "Terrorist"
+  },
+  "tec-9": {
+    "kuva": "./items/pistols/tec-9.png",
+    "nimi": "Tec-9",
+    "hinta": 500,
+    "luokka": "Pistol",
+    "puoli": "Terrorist"
+  },
+  "sawed-off": {
+    "kuva": "./items/heavy/sawed-off.png",
+    "nimi": "sawed-off",
+    "hinta": 1100,
+    "luokka": "Heavy",
+    "puoli": "Terrorist"
+  },
+  "mac-10": {
+    "kuva": "./items/smg/mac-10.png",
+    "nimi": "mac-10",
+    "hinta": 1050,
+    "luokka": "Smg",
+    "puoli": "Terrorist"
+  },
+  "galil-ar": {
+    "kuva": "./items/rifle/galil-ar.png",
+    "nimi": "Galil AR",
+    "hinta": 1800,
+    "luokka": "Rifle",
+    "puoli": "Terrorist"
+  },
+  "ak-47": {
+    "kuva": "./items/rifle/ak-47.png",
+    "nimi": "Ak-47",
+    "hinta": 2700,
+    "luokka": "Rifle",
+    "puoli": "Terrorist"
+  },
+  "sg-553": {
+    "kuva": "./items/rifle/sg-553.png",
+    "nimi": "SG 553",
+    "hinta": 3000,
+    "luokka": "Rifle",
+    "puoli": "Terrorist"
+  },
+  "g3sg1": {
+    "kuva": "./items/rifle/g3sg1.png",
+    "nimi": "G3SG1",
+    "hinta": 5000,
+    "luokka": "Rifle",
+    "puoli": "Terrorist"
+  },
+  "molotov": {
+    "kuva": "./items/nades/molotov.png",
+    "nimi": "Molotov",
+    "hinta": 400,
+    "luokka": "Grenade",
+    "puoli": "Terrorist"
+  },
+  "Usp-s": {
+    "kuva": "./items/pistols/Usp-s.png",
+    "nimi": "Usp-s",
+    "hinta": 200,
+    "luokka": "Pistol",
+    "puoli": "Counter-terrorist"
+  },
+  "p2000": {
+    "kuva": "./items/pistols/p2000.png",
+    "nimi": "P2000",
+    "hinta": 200,
+    "luokka": "Pistol",
+    "puoli": "Counter-terrorist"
+  },
+  "five-seveN": {
+    "kuva": "./items/pistols/five-seven.png",
+    "nimi": "Five-seveN",
+    "hinta": 500,
+    "luokka": "Pistol",
+    "puoli": "Counter-terrorist"
+  },
+  "Mag-7": {
+    "kuva": "./items/heavy/mag-7.png",
+    "nimi": "MAG-7",
+    "hinta": 1300,
+    "luokka": "Heavy",
+    "puoli": "Counter-terrorist"
+  },
+  "mp9": {
+    "kuva": "./items/smg/mp9.png",
+    "nimi": "MP9",
+    "hinta": 1250,
+    "luokka": "Smg",
+    "puoli": "Counter-terrorist"
+  },
+  "aug": {
+    "kuva": "./items/rifle/aug.png",
+    "nimi": "AUG",
+    "hinta": 3300,
+    "luokka": "Rifle",
+    "puoli": "Counter-terrorist"
+  },
+  "famas": {
+    "kuva": "./items/rifle/famas.png",
+    "nimi": "Famas",
+    "hinta": 2250,
+    "luokka": "Rifle",
+    "puoli": "Counter-terrorist"
+  },
+  "m4a4": {
+    "kuva": "./items/rifle/m4a4.png",
+    "nimi": "M4A4",
+    "hinta": 3100,
+    "luokka": "Rifle",
+    "puoli": "Counter-terrorist"
+  },
+  "m4a1-s": {
+    "kuva": "../items/rifle/m4a1-s.png",
+    "nimi": "M4A1-S",
+    "hinta": 2900,
+    "luokka": "Rifle",
+    "puoli": "Counter-terrorist"
+  },
+  "scar-20": {
+    "kuva": "./items/rifle/scar-20.png",
+    "nimi": "SCAR-20",
+    "hinta": 5000,
+    "luokka": "Rifle",
+    "puoli": "Counter-terrorist"
+  },
+  "Dual berettas": {
+    "kuva": "./items/pistols/dual-berettas.png",
+    "nimi": "Dual Berettas",
+    "hinta": 300,
+    "luokka": "Pistol",
+    "puoli": "bothteam"
+  },
+  "p250": {
+    "kuva": "./items/pistols/p250.png",
+    "nimi": "P250",
+    "hinta": 300,
+    "luokka": "Pistol",
+    "puoli": "bothteam"
+  },
+  "Nova": {
+    "kuva": "./items/heavy/nova.png",
+    "nimi": "Nova",
+    "hinta": 1050,
+    "luokka": "Heavy",
+    "puoli": "bothteam"
+  },
+  "xm1014": {
+    "kuva": "./items/heavy/xm1014.png",
+    "nimi": "XM1014",
+    "hinta": 2000,
+    "luokka": "Heavy",
+    "puoli": "bothteam"
+  },
+  "m249": {
+    "kuva": "./items/heavy/m249.png",
+    "nimi": "M249",
+    "hinta": 5200,
+    "luokka": "Heavy",
+    "puoli": "bothteam"
+  },
+  "negev": {
+    "kuva": "./items/heavy/negev.png",
+    "nimi": "Negev",
+    "hinta": 1700,
+    "luokka": "Heavy",
+    "puoli": "bothteam"
+  },
+  "mp5-sd": {
+    "kuva": "./items/smg/mp5-sd.png",
+    "nimi": "MP5-SD",
+    "hinta": 1500,
+    "luokka": "Smg",
+    "puoli": "bothteam"
+  },
+  "mp7": {
+    "kuva": "./items/smg/mp7.png",
+    "nimi": "MP7",
+    "hinta": 1500,
+    "luokka": "Smg",
+    "puoli": "bothteam"
+  },
+  "UMP-45": {
+    "kuva": "./items/smg/ump.png",
+    "nimi": "UMP-45",
+    "hinta": 1200,
+    "luokka": "Smg",
+    "puoli": "bothteam"
+  },
+  "p90": {
+    "kuva": "./items/smg/p90.png",
+    "nimi": "P90",
+    "hinta": 2350,
+    "luokka": "Smg",
+    "puoli": "bothteam"
+  },
+  "pp-bizon": {
+    "kuva": "./items/smg/pp-bizon.png",
+    "nimi": "PP-Bizon",
+    "hinta": 1400,
+    "luokka": "Smg",
+    "puoli": "bothteam"
+  },
+  "SSG 08": {
+    "kuva": "./items/rifle/ssg-08.png",
+    "nimi": "SSG 08",
+    "hinta": 1700,
+    "luokka": "Rifle",
+    "puoli": "bothteam"
+  },
+  "AWP": {
+    "kuva": "./items/rifle/awp.png",
+    "nimi": "AWP",
+    "hinta": 4750,
+    "luokka": "Rifle",
+    "puoli": "bothteam"
+  },
+  "Kevlar Vest": {
+    "kuva": "./items/equipment/kevlar.png",
+    "nimi": "Kevlar Vest",
+    "hinta": 650,
+    "luokka": "Equipment",
+    "puoli": "bothteam"
+  },
+  "Kevlar + Helmet": {
+    "kuva": "./items/equipment/kevlar+helmet.png",
+    "nimi": "Kevlar + Helmet",
+    "hinta": 1000,
+    "luokka": "Equipment",
+    "puoli": "bothteam"
+  },
+  "zeus x27": {
+    "kuva": "./items/equipment/zeus.png",
+    "nimi": "Zeus x27",
+    "hinta": 200,
+    "luokka": "Equipment",
+    "puoli": "bothteam"
+  },
+  "defuse kit": {
+    "kuva": "./items/equipment/defuse-kit.png",
+    "nimi": "Defuse Kit",
+    "hinta": 400,
+    "luokka": "Equipment",
+    "puoli": "Counter-terrorist"
+  },
+  "decoy grenade": {
+    "kuva": "./items/nades/decoy.png",
+    "nimi": "Decoy Grenade",
+    "hinta": 50,
+    "luokka": "Grenade",
+    "puoli": "bothteam"
+  },
+  "Flashbang": {
+    "kuva": "./items/nades/flashbang.png",
+    "nimi": "Flashbang",
+    "hinta": 200,
+    "luokka": "Grenade",
+    "puoli": "bothteam"
+  },
+  "he": {
+    "kuva": "./items/nades/he.png",
+    "nimi": "HE-Grenade",
+    "hinta": 300,
+    "luokka": "Grenade",
+    "puoli": "bothteam"
+  },
+  "Smoke grenade": {
+    "kuva": "./items/nades/smoke.png",
+    "nimi": "Smoke grenade",
+    "hinta": 300,
+    "luokka": "Grenade",
+    "puoli": "bothteam"
+  },
+  "Incendiary Grenade": {
+    "kuva": "./items/nades/incendiary.png",
+    "nimi": "Incendiary Grenade",
+    "hinta": 600,
+    "luokka": "Grenade",
+    "puoli": "Counter-terrorist"
+  },
+  "dessu": {
+    "kuva": "./items/pistols/desserteagle.png",
+    "nimi": "Desert Eagle",
+    "hinta": 700,
+    "luokka": "Pistol",
+    "puoli": "bothteam"
+  }
+}

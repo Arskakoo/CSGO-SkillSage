@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --tausta: #eff3f8;
+    --divinväri: #6a75ca;
+    --teksti: #f8f8fb;
+}
+
+html {
+    background-color: var(--tausta);
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+header {
+    margin-left: 20px;
+    float: left;
+}
+
+.haku {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: #6a75ca 2px solid;
+}
+
+select {
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: #6a75ca 2px solid;
+}
+
+button {
+    padding: 9px;
+    border-radius: 8px;
+    outline: none;
+    border: #6a75ca 2px solid;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: var(--divinväri);
+    color: white;
+    cursor: pointer;
+}
+
+#ehdotetut-tiedostot>div h1 {
+    font-size: 00px;
+}
+
+main>div {
+    margin-left: 60px;
+}
+
+#ehdotetut-tiedot {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: -10px;
+}
+
+.tulos {
+    margin-left: 120px;
+    margin-top: 90px;
+    display: inline-block;
+    float: right;
+}
+
+#ehdotetut-tiedot>div {
+    max-width: 200px;
+    grid-gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--divinväri);
+    margin-top: 20px;
+    text-align: center;
+    color: var(--teksti);
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.4s;
+    font-size: 14px;
+}
+
+#ehdotetut-tiedot>div:hover {
+    scale: 1.1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.valitut {
+    float: left;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: -330px;
+    padding: 8px;
+}
+
+@media (max-width: 780px) {
+    #ehdotetut-tiedot {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        display: block;
+        text-align: center;
+        transition: none;
+    }
+
+
+    .tulos {
+        justify-self: center;
+        margin-top: 90px;
+        display: inline-block;
+        align-items: center;
+        margin: 0 auto;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    #ehdotetut-tiedot>div {
+        max-width: 200px;
+        margin-top: 40px;
+    }
+
+    input {
+        padding: 6px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+    }
+
+    select {
+        padding: 6px;
+        margin-top: 10px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+    }
+
+    button {
+        padding: 7px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+        background-color: white;
+        transition: all 0.4s;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: var(--divinväri);
+        color: white;
+        cursor: pointer;
+    }
+
+    #ehdotetut-tiedot>div>button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    #ehdotetut-tiedot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        display: block;
+        text-align: center;
+        transition: none;
+    }
+
+
+    .tulos {
+        justify-self: center;
+        margin-top: 90px;
+        display: inline-block;
+        align-items: center;
+        margin: 0 auto;
+        margin-right: 35%;
+        margin-left: 50%;
+    }
+
+    #ehdotetut-tiedot>div {
+        max-width: 200px;
+        margin-top: 40px;
+    }
+
+    input {
+        padding: 6px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+    }
+
+    select {
+        padding: 6px;
+        margin-top: 10px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+    }
+
+    button {
+        padding: 7px;
+        border-radius: 8px;
+        outline: none;
+        border: #6a75ca 2px solid;
+        background-color: white;
+        transition: all 0.4s;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: var(--divinväri);
+        color: white;
+        cursor: pointer;
+    }
+
+}
