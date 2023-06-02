@@ -1,3 +1,3 @@
 # CSGOClutchMentor
 # This help to choose gun and items.
-[CSGOClutchMetor](https://arskakoo.github.io/CSGOClutchMetor/)
+[Cs:Go SkillSage](https://arskakoo.github.io/CSGO-SkillSage/)
