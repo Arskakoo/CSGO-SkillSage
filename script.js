@@ -89,8 +89,6 @@ function ehdotaAsetta(rahaMaara, puoli) {
 
           aseElementti.appendChild(nappiElementti);
 
-          // ...
-
           tiedotElementti.appendChild(aseElementti);
         }
       } else {
@@ -99,6 +97,18 @@ function ehdotaAsetta(rahaMaara, puoli) {
       }
     })
     .catch(error => console.error('Virhe:', error));
+}
+
+function poistaAse(ase) {
+  var indeksi = valitutAseet.findIndex(function (valittuAse) {
+    return valittuAse.nimi === ase.nimi;
+  });
+
+  if (indeksi !== -1) {
+    valitutAseet.splice(indeksi, 1);
+  }
+
+  paivitaValitutAseet();
 }
 
 function paivitaValitutAseet() {
@@ -117,10 +127,21 @@ function paivitaValitutAseet() {
       var hintaElementti = document.createElement('p');
       hintaElementti.textContent = 'Price: $' + ase.hinta;
 
-      var hrElementti = document.createElement('hr');
+      var hrElementti = document.createElement('hr')
+
+      var poistoElementti = document.createElement('p');
+      poistoElementti.textContent = 'Remove';
+      poistoElementti.style.color = 'red';
+      poistoElementti.style.cursor = 'pointer';
+      poistoElementti.addEventListener('click', (function (valittuAse) {
+        return function () {
+          poistaAse(valittuAse);
+        };
+      })(ase));
 
       valitutElementti.appendChild(nimiElementti);
       valitutElementti.appendChild(hintaElementti);
+      valitutElementti.appendChild(poistoElementti);
       valitutElementti.appendChild(hrElementti);
 
       kokonaishinta += ase.hinta;
@@ -129,6 +150,10 @@ function paivitaValitutAseet() {
     var kokonaishintaElementti = document.createElement('h3');
     kokonaishintaElementti.textContent = 'Total price: $' + kokonaishinta;
     valitutElementti.appendChild(kokonaishintaElementti);
+
+    var kayttajanHintaElementti = document.createElement('p');
+    kayttajanHintaElementti.textContent = 'User-entered price: $' + valittuRahasumma;
+    valitutElementti.appendChild(kayttajanHintaElementti);
   } else {
     valitutElementti.textContent = 'No selected weapons';
   }
@@ -140,23 +165,19 @@ function paivitaEhdotus() {
 
   valittuRahasumma = rahaMaara;
   ehdotaAsetta(rahaMaara, puoli);
-  paivitaValitutAseet(); // Päivitä myös valitut aseet näytölle
+  paivitaValitutAseet();
 }
 
 function valitseAse(ase) {
-  // Tarkista, onko ase jo valittujen joukossa
   var indeksi = valitutAseet.findIndex(function (valittuAse) {
     return valittuAse.nimi === ase.nimi;
   });
 
   if (indeksi === -1) {
-    // Aseta valittu ase valittujen aseiden taulukkoon
     valitutAseet.push(ase);
-  } else {
-    // Poista valittu ase valittujen aseiden taulukosta
-    valitutAseet.splice(indeksi, 1);
+    // } else {
+    //   valitutAseet.splice(indeksi, 1);
+    // }
   }
-
-  // Päivitä valitut aseet näytölle
   paivitaValitutAseet();
 }

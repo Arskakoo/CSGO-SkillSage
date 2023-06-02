@@ -17,6 +17,10 @@ header {
     float: left;
 }
 
+header img {
+    width: 100px;
+}
+
 .haku {
     float: right;
     margin-top: 30px;
@@ -62,8 +66,9 @@ main>div {
 
 #ehdotetut-tiedot {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: -10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-right: 50px;
 }
 
 .tulos {
@@ -75,17 +80,20 @@ main>div {
 
 #ehdotetut-tiedot>div {
     max-width: 200px;
-    grid-gap: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    grid-gap: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
     background-color: var(--divinväri);
-    margin-top: 20px;
+    margin-top: 23px;
     text-align: center;
     color: var(--teksti);
     padding: 10px;
     border-radius: 12px;
     transition: all 0.4s;
     font-size: 14px;
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 3px var(--divinväri);
 }
 
 #ehdotetut-tiedot>div:hover {
@@ -102,6 +110,14 @@ main>div {
     margin-top: 170px;
     margin-left: -330px;
     padding: 8px;
+}
+
+#valitutAseet {
+    width: 300px;
+    margin-top: 200px;
+    display: inline-block;
+    margin-left: -10px;
+    float: left;
 }
 
 @media (max-width: 780px) {

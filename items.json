@@ -77,7 +77,7 @@
     "puoli": "Counter-terrorist"
   },
   "five-seveN": {
-    "kuva": "./items/pistols/five-seven.png",
+    "kuva": "./items/pistols/fiveseven.png",
     "nimi": "Five-seveN",
     "hinta": 500,
     "luokka": "Pistol",
@@ -245,7 +245,7 @@
     "puoli": "bothteam"
   },
   "defuse kit": {
-    "kuva": "./items/equipment/defuse-kit.png",
+    "kuva": "./items/equipment/defusekit.png",
     "nimi": "Defuse Kit",
     "hinta": 400,
     "luokka": "Equipment",
@@ -287,7 +287,7 @@
     "puoli": "Counter-terrorist"
   },
   "dessu": {
-    "kuva": "./items/pistols/desserteagle.png",
+    "kuva": "./items/pistols/dessereagle.png",
     "nimi": "Desert Eagle",
     "hinta": 700,
     "luokka": "Pistol",
